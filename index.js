@@ -1,2 +1,2 @@
 
-module.exports = require('./src/timeUid');
+module.exports = require('./src/timerUid');

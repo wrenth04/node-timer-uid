@@ -1,0 +1,24 @@
+{
+  "name": "timer-uid",
+  "version": "1.0.0",
+  "description": "timestamp unique identifier generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrenth04/node-timer-uid.git"
+  },
+  "keywords": [
+    "uid",
+    "uuid",
+    "timestamp"
+  ],
+  "author": "Phil Huang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrenth04/node-timer-uid/issues"
+  },
+  "homepage": "https://github.com/wrenth04/node-timer-uid#readme"
+}

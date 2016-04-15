@@ -15,13 +15,13 @@ var timerUid = {
     }
 
     if(now != lastTimestamp) {
-      lastTimestamp = t;
+      lastTimestamp = now;
       for(var i = 0 ; i < 12 ; i++) {
         lastRandom[i] = Math.floor(Math.random() * CHARS.length);
       }
     } else {
       for(var i = 11 ; i >= 0 ; i--) {
-        if(lastRandom[i] != CHARS.length) {
+        if(lastRandom[i] != CHARS.length - 1) {
           lastRandom[i]++;
           break;
         }

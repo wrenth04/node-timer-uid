@@ -1,10 +1,11 @@
 {
   "name": "timer-uid",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "timestamp unique identifier generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify web.js -o dist/timer-uid.bundle.js"
   },
   "repository": {
     "type": "git",

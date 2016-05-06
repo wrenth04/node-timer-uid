@@ -5,7 +5,8 @@ node_js:
   - "4"
   - "5"
 before_install:
-  - npm install -q -g browserify
-script: npm run build
-sudo: false
+  - npm install -q -g browserify mocha
+script:
+  - npm test
+  - npm run build
 

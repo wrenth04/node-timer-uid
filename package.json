@@ -4,7 +4,7 @@
   "description": "timestamp unique identifier generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha test",
     "build": "browserify web.js -o dist/timer-uid.bundle.js"
   },
   "repository": {
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/wrenth04/node-timer-uid/issues"
   },
-  "homepage": "https://github.com/wrenth04/node-timer-uid#readme"
+  "homepage": "https://github.com/wrenth04/node-timer-uid#readme",
+  "devDependencies": {
+    "should": "^8.3.1"
+  }
 }

@@ -4,5 +4,8 @@ node_js:
   - "0.12"
   - "4"
   - "5"
+before_install:
+  - npm install -q -g browserify
+script: npm run build
 sudo: false
 

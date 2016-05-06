@@ -1,4 +1,4 @@
-# node-timer-uid
+# node-timer-uid [![Build Status](https://travis-ci.org/wrenth04/node-timer-uid.svg?branch=master)](https://travis-ci.org/wrenth04/node-timer-uid)
 timestamp unique identifier generator 
 
 ## About tuid
